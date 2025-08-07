@@ -1,35 +1,39 @@
 # Profi Bolus Calc
 
-A React + Vite + TypeScript web application for calculating insulin dosage based on carbohydrates, fat/protein/calories, and blood glucose, including FPE calculation and trend arrow logic. Uses Bootstrap for UI and localStorage for persistence.
+Eine React + Vite + TypeScript Webanwendung zur Berechnung der Insulindosis basierend auf Kohlenhydraten, Fett-/Eiweiß-/Kaloriengehalt und aktuellem Blutzucker, inklusive FPE-Berechnung und Trendpfeil-Logik. Bootstrap wird für das UI und localStorage für die Speicherung verwendet.
 
-## Features
+## Medizinischer Disclaimer
 
-- Calculate insulin dose from carbs, fat/protein/calories, and current blood glucose
-- FPE (Fett-Protein-Einheiten) calculation according to medical rules
-- Trend arrow recommendations
-- Save administered insulin doses and show remaining active insulin on reload
-- User settings stored in localStorage
+**Achtung:** Dieses Tool dient ausschließlich zu experimentellen und nicht-medizinischen Zwecken. Es stellt keine medizinische Beratung dar und ersetzt keinesfalls die individuelle ärztliche Betreuung oder Therapieanpassung. Für die Richtigkeit der Berechnungen und deren Anwendung wird keine Haftung übernommen. Die Nutzung erfolgt auf eigene Verantwortung.
 
-## Setup
+## Funktionen
 
-1. Install dependencies:
+- Berechnung der Insulindosis aus Kohlenhydraten, Fett/Eiweiß/Kalorien und aktuellem Blutzucker
+- FPE (Fett-Protein-Einheiten) Berechnung nach medizinischen Regeln
+- Trendpfeil-Empfehlungen
+- Speicherung verabreichter Insulindosen und Anzeige der noch wirksamen Restinsulinmenge beim erneuten Aufruf
+- Persönliche Einstellungen werden im Browser gespeichert
+
+## Einrichtung
+
+1. Abhängigkeiten installieren:
 
    ```sh
    npm install
    ```
 
-2. Start the development server:
+2. Entwicklungsserver starten:
 
    ```sh
    npm run dev
    ```
 
-## Usage
+## Nutzung
 
-- Enter meal data and blood glucose values in the form
-- Adjust settings as needed
-- Save insulin doses to track active insulin
+- Geben Sie die Mahlzeitendaten und Blutzuckerwerte im Formular ein
+- Passen Sie die Einstellungen nach Bedarf an
+- Speichern Sie Insulindosen, um das aktive Restinsulin zu verfolgen
 
-## License
+## Lizenz
 
 MIT
